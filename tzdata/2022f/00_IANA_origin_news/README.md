@@ -36,7 +36,6 @@ Briefly:
    Remove no-longer-needed workaround for Qt bug 53071.
 ```
 
-[IANA官网 NEWS](https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html)
 
 <br/>
 
