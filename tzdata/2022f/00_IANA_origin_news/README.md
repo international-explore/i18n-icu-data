@@ -1,6 +1,6 @@
 # tzdata 2022f (Released 2022-10-28)
 
-## [变更内容](https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html)
+## [变更内容-官网](https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html)
 
 解读：
 ```
