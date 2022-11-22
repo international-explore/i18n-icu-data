@@ -8,7 +8,7 @@
 
 
 # 目标
-本项目旨在收拢各平台和各语言ICU-DATA，并且紧跟IANA的步伐，确保第一时间提供最新数据
+本项目旨在收拢各平台和各语言ICU-DATA，特别是紧跟IANA的步伐，确保第一时间提供最新tzdata（全球时区数据）
 
 generate ICU DATA data in various formats which can using for multi-platforms, such as Linux OS, Mac OS, Golang, Java, PHP etc.
 
