@@ -4,24 +4,35 @@
 
 解读：
 ```
-1. 智利夏令时推迟一周，从09-04推迟到09-11 （切换操作是当地00:00:00 直接跳拨到 01:00:00）
-2. 伊朗2022年之后永久取消夏令时
-3. 时区Europe/Kiev 重命名为 Europe/Kyiv，但为保证兼容性，两个时区都生效
-4. zic程序新增 -R 参数，（！！！很重要，默认只生成到当下的第二年数据，不会生成到2038年的数据），影响 Linux操作系统的zoneinfo等数据的生成
+1. 墨西哥2023年以后，永久取消夏令时（拍手称快~~），但是2022年大部分城市仍然会从夏令时切换到正常时间
+2. 墨西哥的时令变化规则：
+  "America/Chihuahua"   (明年取消夏令时，今年不切换时区)
+  "America/Ojinaga"     (明年取消夏令时，今年不切换时区)
+  "America/Mexico_City" (明年取消夏令时，今年正常切换)
+  "America/Mazatlan"    (明年取消夏令时，今年正常切换)
+  "America/Cancun"     （一直没有夏令）
+  "America/Hermosillo" （一直没有夏令）
+  "America/Matamoros"  （靠近美国，保留夏令时）
+  "America/Tijuana"    （靠近美国，保留夏令时）
+
 ```
 
 
 英文：
 ```
 Briefly:
-  Chile's DST is delayed by a week in September 2022.
-  Iran no longer observes DST after 2022.
-  Rename Europe/Kiev to Europe/Kyiv.
-  New zic -R option
-  Vanguard form now uses %z.
-  Finish moving duplicate-since-1970 zones to 'backzone'.
-  New build option PACKRATLIST
-  New tailored_tarballs target, replacing rearguard_tarballs
+   Mexico will no longer observe DST except near the US border.
+   Chihuahua moves to year-round -06 on 2022-10-30.
+   Fiji no longer observes DST.
+   Move links to 'backward'.
+   In vanguard form, GMT is now a Zone and Etc/GMT a link.
+   zic now supports links to links, and vanguard form uses this.
+   Simplify four Ontario zones.
+   Fix a Y2438 bug when reading TZif data.
+   Enable 64-bit time_t on 32-bit glibc platforms.
+   Omit large-file support when no longer needed.
+   In C code, use some C23 features if available.
+   Remove no-longer-needed workaround for Qt bug 53071.
 ```
 
 [IANA官网 NEWS](https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html)
