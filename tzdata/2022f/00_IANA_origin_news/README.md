@@ -6,14 +6,14 @@
 ```
 1. 墨西哥2023年以后，永久取消夏令时（拍手称快~~），但是2022年大部分城市仍然会从夏令时切换到正常时间
 2. 后续墨西哥令时规则：
-  "America/Chihuahua"   (明年取消夏令时，今年不切换时区)
-  "America/Ojinaga"     (明年取消夏令时，今年不切换时区)
-  "America/Mexico_City" (明年取消夏令时，今年正常切换)
-  "America/Mazatlan"    (明年取消夏令时，今年正常切换)
+  "America/Chihuahua"   (23年后取消夏令时，22年 "不切换" 时区)
+  "America/Ojinaga"     (23年后取消夏令时，22年 "不切换" 时区)
+  "America/Mexico_City" (23年后取消夏令时，22年正常切换)
+  "America/Mazatlan"    (23年后取消夏令时，22年正常切换)
   "America/Cancun"     （一直没有夏令）
   "America/Hermosillo" （一直没有夏令）
-  "America/Matamoros"  （靠近美国，保留夏令时）
-  "America/Tijuana"    （靠近美国，保留夏令时）
+  "America/Matamoros"  （靠近美国，以后也保留夏令时）
+  "America/Tijuana"    （靠近美国，以后也保留夏令时）
 
 3. 斐济永久取消夏令时
 ```
