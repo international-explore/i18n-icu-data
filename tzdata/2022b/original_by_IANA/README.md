@@ -14,7 +14,9 @@
      New build option PACKRATLIST
      New tailored_tarballs target, replacing rearguard_tarballs
 ```
+
 [IANA官网 NEWS](https://mm.icann.org/pipermail/tz-announce/2022-August/000071.html)
+
 
 
 
@@ -24,6 +26,7 @@
  https://www.iana.org/time-zones/repository/releases/tzdata2022b.tar.gz
  
  https://www.iana.org/time-zones/repository/releases/tzdb-2022b.tar.lz
+
 
 
 ## IANA主页
