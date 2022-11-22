@@ -9,10 +9,8 @@ https://mm.icann.org/pipermail/tz-announce/2022-August/000071.html
 https://www.iana.org/time-zones
 
 ## 2022b 数据
-https://data.iana.org/time-zones/releases/tzdb-2022f.tar.lz
-https://data.iana.org/time-zones/releases/tzdata2022f.tar.gz
-https://data.iana.org/time-zones/releases/tzcode2022f.tar.gz
-
-
+ https://www.iana.org/time-zones/repository/releases/tzcode2022b.tar.gz
+ https://www.iana.org/time-zones/repository/releases/tzdata2022b.tar.gz
+ https://www.iana.org/time-zones/repository/releases/tzdb-2022b.tar.lz
 
 
