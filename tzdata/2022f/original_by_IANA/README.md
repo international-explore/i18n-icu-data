@@ -1,5 +1,5 @@
 
-# tzdata 2022f 
+# tzdata 2022f (Released 2022-10-28)
 
 ## NEWS
 https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html
