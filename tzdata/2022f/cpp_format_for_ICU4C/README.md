@@ -14,7 +14,7 @@ cp -rf ./44  /home/your_icu4c_custom_dir/
 ```
 
 
-## cpp代码使用
+## cpp代码自定义tzdata目录
 ```
 export ICU_TIMEZONE_FILES_DIR=${your_icu4c_custom_dir}
 （注：ICU_TIMEZONE_FILES_DIR 是icu4c内置环境变量，直接指定路径即可）
