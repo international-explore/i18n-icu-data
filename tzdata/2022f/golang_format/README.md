@@ -11,8 +11,18 @@
 ```
 
 ## 安装到OS系统目录
+```
 unzip -d /usr/share/zoneinfo -o zoneinfo.zip
+```
 
 ## 安装到golang目录
+```
 cp -f zoneinfo.zip $GOROOT/lib/time/
+```
 
+## 验证
+```
+loc, _ = time.LoadLocation("America/Tijuana")
+time_str := time.Now().In(loc).Format("2006-01-02 15:04:05")
+println(time_str)
+```
