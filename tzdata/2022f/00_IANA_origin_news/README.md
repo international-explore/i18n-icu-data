@@ -1,6 +1,6 @@
 # tzdata 2022f (Released 2022-10-28)
 
-## [变更内容](https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html)
+## [变更内容-官网](https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html)
 
 解读：
 ```
@@ -36,7 +36,6 @@ Briefly:
    Remove no-longer-needed workaround for Qt bug 53071.
 ```
 
-[IANA官网 NEWS](https://mm.icann.org/pipermail/tz-announce/2022-October/000075.html)
 
 <br/>
 
